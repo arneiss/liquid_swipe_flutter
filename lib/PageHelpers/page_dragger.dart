@@ -61,6 +61,7 @@ class _PageDraggerState extends State<PageDragger> {
         slideDirection = SlideDirection.rightToLeft;
       } else if (dx < 0.0) {
 //         slideDirection = SlideDirection.leftToRight;
+        print("left to right");
       }
 
       //predicting slide percent
