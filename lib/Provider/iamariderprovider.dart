@@ -175,7 +175,7 @@ class IAmARiderProvider extends ChangeNotifier {
       if (enableLoop) {
         //conditions on slide direction
         if (slideDirection == SlideDirection.leftToRight) {
-//           nextPageIndex = activePageIndex - 1;
+          nextPageIndex = activePageIndex - 1;
         } else if (slideDirection == SlideDirection.rightToLeft) {
           nextPageIndex = activePageIndex + 1;
         }
